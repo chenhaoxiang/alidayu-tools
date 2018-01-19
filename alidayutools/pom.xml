@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.uifuture</groupId>
+    <artifactId>alidayu-tools</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+
+    <name>${project.groupId}:${project.artifactId}</name>
+    <description>Alidayu SDK</description>
+    <url>https://github.com/chenhaoxiang/alidayu-tools</url>
+
+    <dependencies>
+        <!--阿里大于的Jar包-->
+        <dependency>
+            <groupId>alidayu</groupId>
+            <artifactId>alidayu</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/src/main/resources/lib/taobao-sdk-java-auto_1455552377940-20160607.jar</systemPath>
+        </dependency>
+        <!--
+            实体类使用@Data注解 不用再写setter、getter方法
+            类引入日志 使用@Slf4j注解
+            IDEA记得装lombok插件
+        -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.16.18</version>
+        </dependency>
+
+        <!-- json转换 -->
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.3.1</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/commons-logging/commons-logging -->
+        <dependency>
+            <groupId>commons-logging</groupId>
+            <artifactId>commons-logging</artifactId>
+            <version>1.2</version>
+        </dependency>
+
+    </dependencies>
+
+    <licenses>
+        <license>
+            <name>The Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
+
+    <scm>
+        <connection>
+            scm:git:https://github.com/chenhaoxiang/alidayu-tools.git
+        </connection>
+        <developerConnection>
+            scm:git:https://github.com/chenhaoxiang/alidayu-tools.git
+        </developerConnection>
+        <url>https://github.com/chenhaoxiang/alidayu-tools.git</url>
+        <tag>v1.0.0</tag>
+    </scm>
+
+    <developers>
+        <developer>
+            <name>chenhaoxiang</name>
+            <email>uifuture@uifuture.com</email>
+            <organization>uifuture</organization>
+            <organizationUrl>http://chenhaoxiang.cn</organizationUrl>
+        </developer>
+    </developers>
+
+</project>
