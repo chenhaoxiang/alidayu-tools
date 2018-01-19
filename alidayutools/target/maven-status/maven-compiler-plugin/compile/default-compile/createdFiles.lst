@@ -1,0 +1,7 @@
+com\uifuture\alidayu\server\AlidayuInitService.class
+com\uifuture\alidayu\server\impl\SendAlidayuCodeServiceImpl.class
+com\uifuture\alidayu\config\AlidayuTemplate.class
+com\uifuture\alidayu\config\AlidayuAccountConfig.class
+com\uifuture\alidayu\utils\AlidayuExecutorService.class
+com\uifuture\alidayu\server\impl\AlidayuInitServiceImpl.class
+com\uifuture\alidayu\config\impl\AlidayuTemplateImpl.class
