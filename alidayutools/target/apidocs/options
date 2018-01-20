@@ -4,7 +4,7 @@
 'UTF-8'
 -protected
 -sourcepath
-'I:/Github/alidayu-tools/alidayutools/src/main/java;I:/Github/alidayu-tools/alidayutools/target/generated-sources/annotations'
+'I:/Github/alidayu-tools/alidayutools/src/main/java'
 -author
 -bottom
 'Copyright &#169; 2018. All Rights Reserved.'

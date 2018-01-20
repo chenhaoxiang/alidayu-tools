@@ -84,7 +84,6 @@
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-gpg-plugin</artifactId>
-                        <!-- 使用1.5版本 -->
                         <version>1.5</version>
                         <executions>
                             <execution>
