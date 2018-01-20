@@ -41,13 +41,13 @@ public class Template {
 ```
  AlidayuExecutorService alidayuExecutorService = new AlidayuExecutorService();
         //方式一
-//        alidayuExecutorService.runCallable(new AlidayuTemplateImpl<String>("{\"uifname\":\"chenhaoxiang\",\"authcode\":\"123456\"}","13973553186"));
+//        alidayuExecutorService.runCallable(new AlidayuTemplateImpl<String>("{\"uifname\":\"chenhaoxiang\",\"authcode\":\"123456\"}","139****86"));
 
         //方式二
         Template template = new Template();
         template.setAuthcode("654321");
         template.setUifname("陈浩翔");
-        Object back = alidayuExecutorService.runCallableAndBack(new AlidayuTemplateImpl<Template>(template,"13973553186"));
+        Object back = alidayuExecutorService.runCallableAndBack(new AlidayuTemplateImpl<Template>(template,"139****86"));
         System.out.println(back.toString());
 ```
 
