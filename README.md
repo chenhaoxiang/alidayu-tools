@@ -52,7 +52,14 @@ public class Template {
 ```
 
 
-
+在Maven中引用
+```
+<dependency>
+    <groupId>com.uifuture</groupId>
+    <artifactId>alidayu-tools</artifactId>
+    <version>1.0.0</version>
+</dependency>
+```
 
 
 
